@@ -1,0 +1,139 @@
+.schedule_call{
+  margin: 0 1rem;
+  background-color: black;
+width:10rem;
+height: 3rem;
+border-radius: 50px;
+font-weight: bold;
+  color:white
+}
+.hiring{
+  background-color: white;
+  color:black;
+width:10rem;
+height: 3rem;
+border-radius: 50px;
+font-weight: bold;
+}
+.sidemenu_schedule_call{
+  margin: 0 1rem;
+  background-color: black;
+width:10rem;
+height: 3rem;
+border-radius: 50px;
+font-weight: bold;
+  color:white
+}
+.sidemenu_hiring{
+  background-color: white;
+  color:black;
+width:10rem;
+height: 3rem;
+border-radius: 50px;
+font-weight: bold;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu{
+  list-style: none;
+  text-decoration: none;
+  display:flex;
+  display: block;
+  
+}
+.side_menu{
+  position: absolute;
+  width: 100%;
+  z-index: 99999;
+  list-style: none;
+  text-decoration: none;
+  display:flex;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  background-color: rgb(125, 204, 94);
+  align-items: center;
+  flex-direction: column;
+}
+.menu_list{
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.side_menu_list{
+
+  height: 3rem;
+  margin: 0.8rem 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+@media  (min-width: 320px) {
+  .sidemenu{
+    display: block;
+  }
+  .menu{
+    list-style: none;
+    text-decoration: none;
+    display:flex;
+    display: none;
+  }
+  .schedule_call{
+    display: none;
+  }
+  .hiring{
+    display: none;
+  }
+}
+@media  (min-width: 768px) {
+  .sidemenu{
+    display: block;
+  }
+  .menu{
+  
+    display: none;
+  }
+  .schedule_call{
+    display: none;
+  }
+  .hiring{
+    display: none;
+  }
+}
+@media only screen and (min-width: 1232px){
+  .sidemenu{
+    display: none;
+  }
+  .menu{
+    list-style: none;
+    text-decoration: none;
+    display:flex;
+    
+    
+  }
+  .side_menu{
+    display: none;
+  }
+  .schedule_call{
+    display: block;
+    margin: 0 1rem;
+    background-color: black;
+  width:10rem;
+  height: 3rem;
+  border-radius: 50px;
+  font-weight: bold;
+    color:white
+  }
+  .hiring{
+    display: block;
+    background-color: white;
+    color:black;
+  width:10rem;
+  height: 3rem;
+  border-radius: 50px;
+  font-weight: bold;
+  }
+   
+}
+
